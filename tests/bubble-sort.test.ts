@@ -1,4 +1,4 @@
-import bubbleSort from '../src/bubble-sort';
+import { bubbleSort } from '../src/bubble-sort';
 
 it('should sorting array [3, 2] to be [2, 3]', () => {
   const input = [3, 2];

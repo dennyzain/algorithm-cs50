@@ -1,4 +1,4 @@
-export default function bubbleSort(input: Array<number>) {
+export const bubbleSort = (input: Array<number>) => {
   let unorderNum = input.length - 1;
   while (unorderNum > 0) {
     for (let i = 0; i < unorderNum; i++) {
@@ -9,4 +9,4 @@ export default function bubbleSort(input: Array<number>) {
     unorderNum -= 1;
   }
   return input;
-}
+};
