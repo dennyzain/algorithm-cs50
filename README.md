@@ -5,3 +5,8 @@ this is a repo for learning implementation from CS50 Course
 - Big O
 - Sorting
 - Searching
+
+### Tech stack
+
+- Typescript
+- Jest (unit test)
